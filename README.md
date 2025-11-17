@@ -32,9 +32,7 @@ In response to the lack of availabity, lack of refferals and visa limitations, w
 - Implemented placeholder image
 - Making sure container fits
 - Created mission statement for company
-  ### [Ashley Lizama]
+### [Ashley Lizama]
 - Designed and implemented color scheme
 - Created verification page
-- [List other specific contributions]
-- Implemented hero section styling
-- Made site responsive for mobile devices
+- Made buttons to go with verification page
