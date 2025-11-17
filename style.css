@@ -313,6 +313,28 @@ label{
     background-color: #eee;
     border-radius: 10px;
 }
+#id {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team3 button{
+    display: inline-block;
+    border-radius: 14px;
+    background-color: #B70707;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+    margin: 50px;
+    cursor: pointer;
+}
+.team3 h2{
+    text-align: center;
+}
 .team4{
     justify-content: center;
     width: 250px;
@@ -321,4 +343,21 @@ label{
     background-color: #eee;
     border-radius: 10px;
     
+
+}
+.team4 h2{
+    text-align: center;
+}
+.team4 button{
+    display: inline-block;
+    border-radius: 14px;
+    background-color: #B70707;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+    cursor: pointer;
 }
