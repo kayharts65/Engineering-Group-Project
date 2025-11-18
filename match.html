@@ -4,9 +4,9 @@
 
         <title>Engineering Project Website</title>
         <!-- link to webpage's style sheet-->
-        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="/style.css" >
         <!-- link the webpage's JavaScript file -->
-        <script src="script.js" defer></script>
+        <script src="/script.js" defer></script>
     </head>
     <body>
         <nav>
@@ -27,27 +27,21 @@
         </nav>
         <main>
 <div class="company container"><div>
-                    <img id="Company" src="assets/profile.webp">
+                    <img id="Company" src="assets/profile.webp" alt="Actalent logo">
                     <h2>Company profile</h2>
                     <div class="input-group">
                         <h3>Email:</h3>
-                            <input 
-                                   type="text" 
-                                   name="" 
-                                   id="" 
-                                   class="effect" 
-                                   placeholder="Email" 
-                                   />
+                            <input type="text" class="effect"placeholder="Email" value="careers@actalentservices.com"/>
                             <span class="border"></span>
                     </div>
                     <div class="input-group">
                         <h3>contact information:</h3>
-                            <input type="text" name="" id="" class="effect" placeholder="Phone Number" />
+                            <input type="text" class="effect" placeholder="Phone Number" value="contact via website" />
                             <span class="border"></span>
                     </div>
                     <div class="input-group">
                         <h3>Position type:</h3>
-                            <input type="text" name="" id="" class="effect" placeholder="Position type" />
+                            <input type="text" class="effect" placeholder="Position type" value="Entry" />
                             <span class="border"></span>
                     </div>
                     <div class="input-group">
@@ -56,14 +50,12 @@
                             <span class="border"></span>
                     </div>
                     <div class="input-group">
-                        <h3>Stipend:</h3>
-                            <input type="text" name="" id="" class="effect" placeholder="Yes/No" />
+                        <h3>Stipend/Compensation:</h3>
+                            <input type="text" class="effect" placeholder="Yes/No" value="Hourly: $30.00-$31.00" />
                             <span class="border"></span>
                     </div>
-                </div>
-                <div>
                     <div class = "check-container">
-                    <h1>Company name!</h1>
+                    <h1>Actalent</h1>
                     <button class="seematch">See Matches</button>
                     <!-- Job Posting Section -->
                      <div class="job-posting-section">
@@ -71,17 +63,22 @@
                         <div class="job-form">
                             <div class="input-group">
                                 <h3>Job Title</h3>
-                            <div class="input-group"></div>
-                                <h3>Jod Descripition</h3>
-                                <textarea name="" id=""></textarea>
-                                <span>class="border"</span>
+                            <input type="text" class="effect" value="Entry Level Engineer"/>
+                            <!-- Job Descripition -->
+                                <h3>Job Descripition</h3>
+                                <textarea name="" id="">Qualified candidates should have an engineering degree from an accredited ABET university. Ideally, candidates will experience in electrical engineering or mechanical engineering, though chemical or industrial engineering degrees are also acceptable. In this role, candidates will be responsible for performing analysis, staking, and pole relocation support for Utilities in the United States.
                             </div>
-                            <div> class="input-group">
+                            <!--Required Skills -->
                                 <h3>Required Skills</h3>
-                                <textarea name="" id=""></textarea>
+                                <textarea name="" id="">    Bachelor's degree in Engineering (ideally Electrical or Mechanical Engineering, but open to other disciplines) from an ABET accredited university.
+                                Experience with Microsoft Office applications (Excel, Word, PowerPoint).
+                                Strong communication and initiative skills.
+                                Ability to travel into the office 5 days per week, with potential for a hybrid schedule after 6 months based on performance.
+                                Open to traveling 5-10% of the time for project staking.</textarea>
                                 <span>class="border" </span></div>
                             </div>
                             <div>class="input-group"></div>
+                            <!--Expericence Level -->
                                 <h3>Expericence Level:</h3>
                             <div>class="input-group"></div>
                                 <select>class="effect">
@@ -92,8 +89,9 @@
                                 <span>class="border"</span></div>
                             </div>
                             <div class="input-group"></div>
+                            <!--Location/Workplace Type -->
                                 <h3>Location</h3>
-                                <textarea name="" id=""></textarea>
+                                <textarea name="" id="">New Orleans, Louisiana, USA</textarea>
                                 <span>class="border"</span></div>
             <!--Applicant List for Companies-->
                         <div class="applicant-list"> 
