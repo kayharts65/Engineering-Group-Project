@@ -247,17 +247,22 @@ label{
 /* End Upload Button */
 /* Company Match Styling */
 .company-container {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    gap: 1rem;
-}
-/* .companydes {
-    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-} */
+    align-items: center; /* vertically centers image and text */
+    gap: 5em;
+}
+#info-right {
+    margin-left: 200px;
+    text-align: center;
+}
+.company-container h3{
+    text-decoration: underline;
+}
+.companydes h3{
+    text-decoration: underline;
+}
 /* End of Company Styling */
 /* Outreach Styling */
 .purpose {
