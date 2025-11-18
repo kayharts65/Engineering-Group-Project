@@ -24,9 +24,9 @@ In response to the lack of availabity, lack of refferals and visa limitations, w
 - Created responsive navigation bar
 - Created the buttons and user input for index.html
 ### [Iasha Eleby]
-- Designed and implemented color scheme
-- Created footer component
-- [List other specific contributions]
+- Styled and implemented color scheme
+- Created matching page
+- Add research information from interviewed company
 ### [Asia Flores]
 - Worked on company outreach page
 - Implemented placeholder image
